@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Side */
+.left-side {
+    width: 30%;
+    background-color: #2C3E50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.profilText h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profilText h2 span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #B0BEC5;
+}
+
+.imgbox {
+    margin-top: 20px;
+}
+
+.imgbox img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+/* Contact Info */
+.contactinfo {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.contactinfo .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ECF0F1;
+}
+
+.contactinfo ul {
+    list-style: none;
+}
+
+.contactinfo ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contactinfo ul li .icon {
+    margin-right: 15px;
+}
+
+.contactinfo ul li .icon i {
+    font-size: 18px;
+    color: #1ABC9C;
+}
+
+.contactinfo ul li .text {
+    font-size: 16px;
+    color: #ECF0F1;
+}
+
+/* Right Side */
+.right-side {
+    width: 70%;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+ /* Right Side Sections  */
+ .right-side .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.right-side ul {
+    list-style: none;
+}
+
+.right-side ul li {
+    margin-bottom: 20px;
+}
+
+.right-side ul li h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7F8C8D;
+}
+
+.right-side ul li h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #34495E;
+}
+
+.right-side ul li span {
+    font-size: 16px;
+    color: #34495E;
+}
+.hobbies{
+    margin-top: 40px;
+    text-align: left;
+    
+}
+
+.contactinfo-language{
+    margin-top: 40px;
+    text-align: left;
+}
